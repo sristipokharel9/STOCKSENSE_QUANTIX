@@ -1,0 +1,121 @@
+# ------------------------------------------------------------
+# Python
+# ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ------------------------------------------------------------
+# Virtual environments
+# ------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+.conda/
+*.egg
+
+# ------------------------------------------------------------
+# Jupyter
+# ------------------------------------------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+
+# ------------------------------------------------------------
+# Environment / secrets
+# ------------------------------------------------------------
+.env
+.env.*
+*.env
+
+# ------------------------------------------------------------
+# OS / editor
+# ------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+# ------------------------------------------------------------
+# Logs and temp
+# ------------------------------------------------------------
+*.log
+logs/
+tmp/
+temp/
+
+# ------------------------------------------------------------
+# Data — do NOT commit raw or large files
+# ------------------------------------------------------------
+data/raw/*.csv
+data/raw/*.json
+data/processed/*.csv
+data/processed/cleaned/*.csv
+data/processed/dq_log.json
+data/processed/split_meta.json
+
+# Keep the folders in git but not the files
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/processed/cleaned/.gitkeep
+
+# ------------------------------------------------------------
+# Models — large binaries, do not commit
+# ------------------------------------------------------------
+models/*.joblib
+models/*.pkl
+models/*.h5
+
+# Keep metadata so teammates can see model info without retraining
+!models/*_meta.json
+!models/explain_meta.json
+
+# ------------------------------------------------------------
+# Reports — generated artefacts
+# ------------------------------------------------------------
+reports/figures/*.png
+reports/*.csv
+
+# Keep the human-written reports
+!reports/data_quality_report.md
+!reports/statistical_tests.md
+!reports/PITCH_OUTLINE.md
+
+# ------------------------------------------------------------
+# Streamlit
+# ------------------------------------------------------------
+.streamlit/secrets.toml
+
+# ------------------------------------------------------------
+# Testing / coverage
+# ------------------------------------------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# ------------------------------------------------------------
+# Packaging / build
+# ------------------------------------------------------------
+*.tar.gz
+*.zip
+*.7z
+
+# ------------------------------------------------------------
+# Junk from earlier iterations of this project
+# ------------------------------------------------------------
+rejected_rows.csv
+~$*.xlsx
+~$*.docx

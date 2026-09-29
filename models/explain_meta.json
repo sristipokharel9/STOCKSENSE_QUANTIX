@@ -1,0 +1,156 @@
+{
+  "top_demand": [
+    {
+      "feature": "rolling_mean_7",
+      "importance": 1.2681947124482167,
+      "std": 0.026415596380102595
+    },
+    {
+      "feature": "units_sold",
+      "importance": 0.2792902710951971,
+      "std": 0.006207806844761414
+    },
+    {
+      "feature": "lag_7",
+      "importance": 0.17186188209556114,
+      "std": 0.004988209586187826
+    },
+    {
+      "feature": "price_vs_mrp",
+      "importance": 0.058138008227622426,
+      "std": 0.00240241804996675
+    },
+    {
+      "feature": "avg_selling_price",
+      "importance": 0.04668053711122766,
+      "std": 0.0021343985552337743
+    },
+    {
+      "feature": "reorder_lvl",
+      "importance": 0.011575389577580286,
+      "std": 0.0012480160850968996
+    },
+    {
+      "feature": "lead_days",
+      "importance": 0.009879379272751954,
+      "std": 0.001193306616800705
+    },
+    {
+      "feature": "lag_1",
+      "importance": 0.009654344899713818,
+      "std": 0.0006849142445156993
+    },
+    {
+      "feature": "n_customers",
+      "importance": 0.0072402665343332725,
+      "std": 0.0007413977653978658
+    },
+    {
+      "feature": "reorder_gap",
+      "importance": 0.005718020451005201,
+      "std": 0.0015178155951832662
+    },
+    {
+      "feature": "shelf_life_days",
+      "importance": 0.0038041483706290125,
+      "std": 0.0011623177915662888
+    },
+    {
+      "feature": "n_transactions",
+      "importance": 0.0032142824714232352,
+      "std": 0.0008026397254984957
+    },
+    {
+      "feature": "closing",
+      "importance": 0.001913046781514116,
+      "std": 0.0006098819727820039
+    },
+    {
+      "feature": "category",
+      "importance": 0.0007359153507953131,
+      "std": 0.00030600380679570723
+    },
+    {
+      "feature": "supplier_id",
+      "importance": 0.0005705300427033322,
+      "std": 0.00015499111778387501
+    }
+  ],
+  "top_stockout": [
+    {
+      "feature": "days_of_inventory",
+      "importance": 0.055400000000000026,
+      "std": 0.004465422712353242
+    },
+    {
+      "feature": "prev_day_closing",
+      "importance": 0.03799999999999999,
+      "std": 0.0050000000000000044
+    },
+    {
+      "feature": "rolling_mean_14",
+      "importance": 0.020399999999999974,
+      "std": 0.0037735924528226462
+    },
+    {
+      "feature": "lag_1",
+      "importance": 0.013200000000000012,
+      "std": 0.0011224972160321636
+    },
+    {
+      "feature": "product_id",
+      "importance": 0.011900000000000022,
+      "std": 0.0026532998322843166
+    },
+    {
+      "feature": "mrp",
+      "importance": 0.008400000000000029,
+      "std": 0.0018814887722226985
+    },
+    {
+      "feature": "lag_14",
+      "importance": 0.005500000000000016,
+      "std": 0.0010954451150103231
+    },
+    {
+      "feature": "week_no",
+      "importance": 0.0039000000000000146,
+      "std": 0.0016852299546352837
+    },
+    {
+      "feature": "reorder_lvl",
+      "importance": 0.0033000000000000585,
+      "std": 0.0007483314773547889
+    },
+    {
+      "feature": "day_of_month",
+      "importance": 0.003100000000000036,
+      "std": 0.0009695359714832918
+    },
+    {
+      "feature": "promo_last_7d_count",
+      "importance": 0.003100000000000036,
+      "std": 0.0005830951894845154
+    },
+    {
+      "feature": "lag_7",
+      "importance": 0.0026000000000000467,
+      "std": 0.002154065922853786
+    },
+    {
+      "feature": "sales_growth_7",
+      "importance": 0.0024000000000000466,
+      "std": 0.0012806248474865744
+    },
+    {
+      "feature": "rolling_std_7",
+      "importance": 0.0023000000000000355,
+      "std": 0.0008124038404635913
+    },
+    {
+      "feature": "received",
+      "importance": 0.0022000000000000465,
+      "std": 0.0015362291495737317
+    }
+  ]
+}
